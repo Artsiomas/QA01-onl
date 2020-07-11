@@ -6,7 +6,7 @@ public class Task_1 {
         double percent = 1.1;
         double oneDay = 10;
 
-        for (int days = 1; days < 7; days++) {
+        for (int days = 1; days <= 7; days++) {
             if (days > 1) {
                 oneDay *= percent;
             }
