@@ -6,27 +6,27 @@ public class Task_1 {
         if (a >= 0 && a < 10) {
             System.out.print ("В данном числе 1 цифра");
             if (a % 2 == 0) {
-                System.out.print(" и оно четное");
+                System.out.print(" и оно положительное");
             } else {
-                System.out.print(" и оно нечетное");
+                System.out.print(" и оно отрицательно");
             }
         }
 
         if (a >= 10 && a < 100) {
             System.out.print ("В данном числе 2 цифры");
-            if (a % 2 == 0) {
-                System.out.print(" и оно четное");
+            if (a > 0) {
+                System.out.print(" и оно положительное");
             } else {
-                System.out.print(" и оно нечетное");
+                System.out.print(" и оно отрицательно");
             }
         }
 
         if (a >= 100 && a < 1000) {
             System.out.print ("В данном числе 3 цифры");
             if (a % 2 == 0) {
-                System.out.print(" и оно четное");
+                System.out.print(" и оно положительное");
             } else {
-                System.out.print(" и оно нечетное");
+                System.out.print(" и оно отрицательно");
             }
         }
 
