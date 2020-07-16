@@ -5,7 +5,7 @@ public class Task_2 {
         int cell = 1;
         int del = 2;
 
-        for (int ours = 3; ours <= 24; ours +=3 ) {
+        for (int ours = 3; ours <= 33; ours +=3 ) {
             cell *= del;
             System.out.println("Через " + ours + " часов будет " + cell + " амёб");
         }
