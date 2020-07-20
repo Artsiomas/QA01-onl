@@ -20,7 +20,7 @@ public class Task_8 {
         int index = 0;
         double thirdMassive [] = new double[10];
         for (int i = 0; i < thirdMassive.length; i++) {
-            thirdMassive[index] = firstMassive[i]/secondMassive[i];
+            thirdMassive[index] = (double) firstMassive[i]/secondMassive[i];
             index++;
         }
         System.out.println(Arrays.toString(firstMassive));
